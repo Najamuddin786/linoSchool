@@ -1,0 +1,37 @@
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .rotating-div {
+
+    transition: transform 2s;
+  }
+  
+  .rotating-div:hover {
+    animation: rotate 2s infinite;
+  }
+  
+@keyframes scale {
+    0% { transform: rotate(0deg); }
+    
+    /* 25% { transform: rotate(-10deg); } */
+    /* 50% { transform: rotate(0deg); }
+    0% { transform: scale(1.2); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); } */
+    50% { transform: scale(1.2); }
+  }
+  
+  .rotating-divScale {
+
+    transition: transform 2s;
+  }
+  
+  .rotating-divScale:hover {
+    animation: scale 2s infinite;
+  }
+  
