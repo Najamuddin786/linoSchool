@@ -83,6 +83,7 @@ export default function Navbar() {
       )}
     </Flex>
     <Slider/>
+    <Link><Text className='blinking-text' zIndex={1100} bg={'#10ac84'} fontWeight={700} p={1} borderRadius={'20px 20px 0px'} borderBottom={'4px solid #feca57'} color={'white'} position={'fixed'} top='45vh' right={'0px'}>Admission Open</Text></Link>
     </>
   );
 }

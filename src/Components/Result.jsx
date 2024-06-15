@@ -1,5 +1,6 @@
 import {Box,Text,Flex} from '@chakra-ui/react'
 import By from './By'
+import "../App.css"
 
 export default function Result(){
     let result=[
@@ -98,7 +99,7 @@ export default function Result(){
         <Box mt={20} bg={'#FFF5C4'} pb={10} pt='5' px={{ base: '2%', md: '8%', xl: '14%' }}>
             <By title='Last Year Result 10th'/>
             <Flex textAlign={'center'} fontSize={{base:'12px',sm:'14px',md:'20px'}} p={1} justifyContent={'space-between'} bg={'#10ac84'} flexDir={'column'} border={'1px solid black'}>
-                <Flex fontWeight={600} bg={'#feca57'} border={'1px solid black'}><Text borderRight={'1px solid black'} w={'20%'}>Name</Text>
+                <Flex className='rotating-divScale' fontWeight={600} bg={'#feca57'} border={'1px solid black'}><Text borderRight={'1px solid black'} w={'20%'}>Name</Text>
                     <Text borderRight={'1px solid black'} w={'10%'}>English</Text>
                     <Text borderRight={'1px solid black'} w={'10%'}>Hindi</Text>
                     <Text borderRight={'1px solid black'} w={'10%'}>Math</Text>
@@ -116,7 +117,7 @@ export default function Result(){
                     }else{
                         Total+=ele['san']
                     }
-                    return <Flex border={'1px solid black'} key={i}  justifyContent={'space-between'}>
+                    return <Flex className='rotating-divScale' border={'1px solid black'} key={i}  justifyContent={'space-between'}>
                             <Text borderRight={'1px solid black'} w={'20%'} bg={'#feca57'}>{ele.name}</Text>
                             <Text borderRight={'1px solid black'} w={'10%'}>{ele.english}</Text>
                             <Text borderRight={'1px solid black'} w={'10%'}>{ele.hindi}</Text>

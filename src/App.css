@@ -34,4 +34,14 @@
   .rotating-divScale:hover {
     animation: scale 2s infinite;
   }
+  .blinking-text {
+
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
   
