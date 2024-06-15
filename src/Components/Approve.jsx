@@ -10,7 +10,7 @@ export default function Approve(){
    
       <Flex my={'10'} flexDir={'column'} p={2} px={{ base: '2%', md: '8%', xl: '14%' }}  h={'130%'} w={'100vw'} justifyContent={'center'} alignItems={'center'}>
         
-        <By/>
+        <By title="Approve"/>
         <Flex className='rotating-divScale' w={'90%'} px={10} py={2} border={'2px dotted #10ac84'} gap={{base:'5px',sm:10}} align={'center'} justifyContent={'start'}>
           <Image w={{base:'50px',sm:'100px',md:'150px'}} src='https://yt3.googleusercontent.com/ytc/AIdro_lN_zzsz2u-aetw4UuV1ADMSrW_8LrwZKgW8IyofDLsS6g=s900-c-k-c0x00ffffff-no-rj'/>
           

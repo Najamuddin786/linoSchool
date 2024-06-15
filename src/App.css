@@ -11,7 +11,7 @@
     transition: transform 2s;
   }
   
-  .rotating-div:hover {
+  .rotating-divrotating-div:hover {
     animation: rotate 2s infinite;
   }
   
