@@ -40,7 +40,7 @@ export default function Contact() {
                                 <Image w='300px' h='300px' border={'1px solid #10ac84'} borderRadius={'500px'} src={contact} />
                             </Box>
 
-                            <Flex gap={4} flexDir={'column'} w={'400px'}>
+                            <Flex gap={4} flexDir={'column'} w={{base:'300px',md:'400px'}}>
                                 <Text fontWeight={700}>Contact Us</Text>
                                 <Input 
                                     ref={nameInputRef} 
