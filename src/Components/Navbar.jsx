@@ -23,6 +23,10 @@ export default function Navbar() {
       label: 'Faculty',
       to: '/faculty',
     },
+    {
+      label: 'Location',
+      to: '/location',
+    },
   ];
   const [hamburger, setHamburger] = useState(false);
 
@@ -44,7 +48,7 @@ export default function Navbar() {
         <Flex gap={2} display={{ base: 'none', sm: 'flex' }}>
           {navbar.map((ele, i) => (
             <Link to={ele.to} key={i}>
-              <Text>{ele.label}</Text>
+              <Text fontWeight={600}>{ele.label}</Text>
             </Link>
           ))}
         </Flex>
