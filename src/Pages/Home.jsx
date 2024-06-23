@@ -4,6 +4,7 @@ import Approve from '../Components/Approve'
 import Welcome from '../Components/Welcome'
 import Result from '../Components/Result'
 import Special from '../Components/Special'
+import Location from './Location'
 
 export default function Home(){
 
@@ -13,5 +14,6 @@ export default function Home(){
        <EventImage/>
        <Result/>
        <Approve/>
+       <Location/>
     </>
 }

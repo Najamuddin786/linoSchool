@@ -1,7 +1,8 @@
 import {Box,Flex} from '@chakra-ui/react'
+import Resume from '../Components/Resume'
 export default function Faculty(){
 
     return <>
-        <h1>Faculty</h1>
+        <Resume/>
     </>
 }

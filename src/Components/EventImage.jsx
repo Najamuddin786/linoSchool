@@ -28,7 +28,7 @@ export default function EventImage() {
             >
                 {image.map((ele, i) => (
                     <Box 
-                        className='rotating-div'
+                        className='rotating-divScale'
                         key={i} 
                         borderRadius="xl" 
                         bg="#feca57" 
